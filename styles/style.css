@@ -36,8 +36,8 @@ p{
 
 }
 body {
-    background-color:rgba(43, 85, 67, 0.849);
-    
+    background-color: black;
+    background-image: linear-gradient(to right, #BB4E3A, #F8DD4D,#BB4E3A,);
 }
 .beautiful-element {
     color: rgb(240, 231, 179);
