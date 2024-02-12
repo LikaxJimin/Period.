@@ -1,0 +1,73 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.square{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(240, 110, 4);
+    top: 500px;
+    left:500px;
+    filter: blur(20px);
+    animation: shrink 1s infinite alternate;
+
+}
+.circle-two{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 80%;
+    top: 100px;
+    left:100px;
+}
+.circle-two:hover{
+    transform: skew(500deg);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    top: 500px;
+    left:500px;
+}
+.circle:hover{
+    transform: skew(30deg);
+}
+.circle-three{
+    width: 1200px;
+    height: 700px;
+    border: 15px solid black;
+    transform: rotate(20deg);
+    top: 600px;
+    left:600px;
+}
+.circle-four{
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    border-radius: 80%;
+    top: 200px;
+    left:100px;
+}
+.circle-four:hover{
+    transform: skew(500deg);
+}
+.square-two{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    top: 200px;
+    left:900px;
+    animation: shrink 1s infinite alternate;
+    filter: blur(10px);
+}
+@keyframes shrink{
+    from {
+        transform: scaleX(1);
+    } to {
+       transform: scaleX(0.2);
+    }
+}
