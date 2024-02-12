@@ -38,6 +38,16 @@ p{
     
 
 }
+.fotm {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    font-size: 18px;
+    
+    max-width: 300px;
+    
+
+}
 body { display: block;
    
     height: 100vh;
