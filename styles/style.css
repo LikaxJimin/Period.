@@ -35,7 +35,9 @@ p{
     
 
 }
-body {
+body { display: flex;
+    flex-direction: row;
+    height: 100vh;
    
     background-image: linear-gradient(to right, #BB4E3A, #F8DD4D,#BB4E3A);
 }
@@ -45,73 +47,3 @@ body {
     font-size: 20px;
     text-align: center;
 }
-.image {
-    margin: 1%;
-}
-.image img {
-    width: 100%;
-    display: block;
-   
-}
-.gallery {
-    display: flex;
-    margin: 1%;
-}
-.gallery img {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-   
-}
-.gall {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-   
-}
-.gall img {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-   
-}
-.item {
-    flex: 1;
-}
-.item img {
-    width: 400%;
-}
-.gall1 {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-   
-}
-.gall1 img {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-}
-.gall2 {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-   
-}
-.gall2 img {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-}
-.gall3 {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-   
-}
-.gall3 img {
-    width: 100%;
-    display: flex;
-    margin: 1%;
-}
-
