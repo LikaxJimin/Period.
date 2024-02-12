@@ -1,18 +1,10 @@
-body {
-
-  
-
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    /* justify-content: center;
-    align-items: center; */
-
-    background-color: black;
-    background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
-
- 
-    
-
-
+h2{
+    color: rgb(240, 231, 179);
+    font-size: 5vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "name";
+    src: url("../assets/Dearlove.ttf");
+    margin: 1%;
+    transition: all 1s;
 }
