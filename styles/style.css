@@ -35,8 +35,8 @@ p{
     
 
 }
-body { display: flex;
-    flex-direction: row;
+body { display: block;
+   
     height: 100vh;
    
     background-image: linear-gradient(to right, #BB4E3A, #F8DD4D,#BB4E3A);
