@@ -1,4 +1,12 @@
-body {
+* {
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: Unica;
+    src: url('../assets/Unica77-Regular.otf');
+} */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');body {
 
   
 
